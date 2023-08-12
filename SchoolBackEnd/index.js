@@ -32,3 +32,5 @@ app.use("/barchart", barchartRoute)
 app.listen(5000, ()=>{
     console.log("Server is online on port 5000");
 })
+
+//mongosh "mongodb+srv://cluster0.atgnax4.mongodb.net/" --apiVersion 1 --username shreedhar0

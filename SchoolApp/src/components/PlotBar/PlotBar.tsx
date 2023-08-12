@@ -54,12 +54,13 @@ function PlotBar() {
 
   return (
     <>
-      <div className="conatiner">
+      <div className="container-fluid">
+        <h3 className="text-center mt-5">Barchart using random values.</h3>
         <div className="row mb-5">
-          <div className="col-12 col-sm-10 offset-sm-1 mt-3">
+          <div className="col-12 col-sm-10 offset-sm-2 mt-5">
             <BarChart
-              width={1200}
-              height={600}
+              width={1000}
+              height={400}
               data={data}
               margin={{
                 top: 5,
