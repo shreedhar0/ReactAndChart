@@ -13,7 +13,7 @@ function NavigationBar() {
   return (
     <Navbar bg="dark" data-bs-theme="dark" className="main" style={styles.main}>
       <Container>
-        <Navbar.Brand href="#home" style={{ fontSize: "22px" }}>
+        <Navbar.Brand href="/" style={{ fontSize: "22px" }}>
           School App
         </Navbar.Brand>
         <Nav className="mr-auto ml-2" style={{ fontSize: "20px" }}>

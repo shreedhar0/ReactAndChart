@@ -3,6 +3,8 @@ const barchartController = require('../controllers/barchartController')
 
 const router = express.Router();
 
-router.post("/saveData", barchartController.saveBarData);
+router.post("/savedata", barchartController.saveBarData);
+
+router.post("/savedump", barchartController.dumpBarData);
 
 module.exports = router;
